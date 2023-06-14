@@ -1,0 +1,6 @@
+# ninja log v5
+9	657	7084081913554677	CMakeFiles/Proyecto_Final_4.dir/main.cpp.obj	d565887baffcbf32
+8	1137	7084006972625144	CMakeFiles/Proyecto_Final_4.dir/Clientes.cpp.obj	a4256573ddaa0687
+1129	1223	7084006973812638	CMakeFiles/Proyecto_Final_4.dir/Transacciones.cpp.obj	2993a09832fbbdd7
+4	892	7084081915984251	CMakeFiles/Proyecto_Final_4.dir/SistemaDeGestion.cpp.obj	f6407071aee70490
+892	1051	7084081917521241	Proyecto_Final_4.exe	4d1cac81ae13a969
