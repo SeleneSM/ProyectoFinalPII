@@ -9,4 +9,6 @@ Nro_cliente Nombre  Apellido Tipo Anio Estado
     7            Nerea   Saad  black   2017    Activo
     8            Nerea   Saad  oro   2019    Activo
     9            Luana   Rolon  black   2018    Baja
-    0            0   Rolon  black   2018    Baja
+    10            Luana   Rolon  black   2018    Baja
+    11            Juan   Perez  black   2016    Activo
+    12            Laura   Diaz  black   2012    Baja
