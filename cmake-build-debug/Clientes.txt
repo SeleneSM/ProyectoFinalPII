@@ -1,7 +1,12 @@
-Nro_cliente     Nombre    Apellido    Tipo    Anio    Estado
-    1            Juan     Degiovanni  plata   2003    baja
-    2            Pedro    Laciar      oro     2020    activo
-    3            Julio    Gutierrez   black   2007    activo
-    4            Selene   Saad        black   2017    Activo
-    5            Maximo   Barbero     oro     2020    Activo
-    6            Maximo   Barbero  oro   2020    Activo
+Nro_cliente Nombre  Apellido Tipo Anio Estado
+
+    1            Juan   Degiovanni  plata   2003    Baja
+    2            Pedro   Laciar  oro   2020    activo
+    3            Julio   Gutierrez  black   2007    activo
+    4            Selene   Saad  black   2017    Baja
+    5            Maximo   Barbero  oro   2020    Activo
+    6            Maximo   Barbero  oro   2020    Baja
+    7            Nerea   Saad  black   2017    Activo
+    8            Nerea   Saad  oro   2019    Activo
+    9            Luana   Rolon  black   2018    Baja
+    0            0   Rolon  black   2018    Baja

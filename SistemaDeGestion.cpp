@@ -466,8 +466,11 @@ void SistemaDeGestion::ConsultaTodosClientes() {
 
 void SistemaDeGestion::DardeBajaCliente() {
     int Nro_Cliente;
+    Clientes c;
+
 
     Nro_Cliente = SolicitarDato<int>("Ingrese el numero del cliente al que le quiere le cambiar el Estado a Baja:");
+
 
     for (int i=0; i<vector_clientes.size(); i++) {
 
@@ -479,6 +482,26 @@ void SistemaDeGestion::DardeBajaCliente() {
             break;
         }
     }
+    ActualizarArhcivoClientes();
+
+
+}
+
+void SistemaDeGestion::ActualizarArhcivoClientes() {
+    ofstream archivoClientes("Clientes.txt");
+
+    if(archivoClientes.is_open()){
+        archivoClientes << "Nro_cliente " << "Nombre  " << "Apellido " << "Tipo " << "Anio " << "Estado" << endl;
+
+        for(int i = 0; i < vector_clientes.size(); i++){
+            Clientes c = vector_clientes[i];
+            archivoClientes << endl <<"    "<< c.getNumeroCliente() << "            " << c.getNombre() << "   " << c.getApellido()
+                            << "  " << c.getTipo()<< "   " << c.getAnio()<< "    " << c.getEstado();
+        }
+    }else{
+        cout << "No se pudo abrir el archivo" << endl;
+    }
+    archivoClientes.close();
 }
 
 

@@ -19,13 +19,14 @@ private:
     vector<Clientes> vector_clientes;
 
 public:
+    //Metodo Gneral
     void CargarDeArchivo();
-
+    //Metodos de Clientes
     void CargarNuevoCliente();
     void CargarNuevoClienteArchivo(Clientes);
     void Consulta_NumeroCliente();
     void ConsultaTodosClientes();
-
+    //Metodos de Transacciones
     void ConsultaTransaccionporCliente();
     void HacerTransaccion();
     void CargarTransaccionArchivo(Transacciones);
@@ -33,6 +34,7 @@ public:
     void ConsultaTransaccion_anio();
     void ConsultaTransaccion_total();
     void DardeBajaCliente();
+    void ActualizarArhcivoClientes();
 
 
 
